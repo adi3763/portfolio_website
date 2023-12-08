@@ -1,0 +1,68 @@
+@media only screen and (max-width:830px) {
+    #wrapper{
+        height: 100%;
+        width: 100%;
+        
+        overflow-y: auto;
+    }
+    .container{
+        width: 830px;
+        margin: 0 auto;
+      
+    font-family: 'Noto Serif', serif;
+    }
+    .nav-bar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+    }
+    .logo{
+        width: 40px;
+    }
+    .logobar{
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+    }
+
+    .headtext{
+        margin: -0.5rem;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+        font-size: 0.9rem;
+    }
+    .btn{
+        background-color: orange;
+        width: 11rem;
+        padding: 0.8rem 2.3rem;
+        color: white;
+        letter-spacing: 0.1rem;
+        position: relative;
+        z-index: 1;
+        text-align: center;
+    }
+
+
+    /*-----------------Project_SECTION----------------*/
+
+    .project-heading{
+        color:black;
+        font-size:70px;
+        text-align:center;
+        padding-top:20px;
+    }
+
+    .project-container{
+        max-width: 830px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 120px;
+        padding: 3rem 0;
+    }
+
+  }
